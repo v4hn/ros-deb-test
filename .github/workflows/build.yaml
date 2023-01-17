@@ -18,9 +18,13 @@ jobs:
         with:
           ROS_DISTRO: ${{ env.ROS_DISTRO }}
           DEB_DISTRO: ${{ env.DEB_DISTRO }}
+          DEB_REPOSITORY: |
+            deb [trusted=yes] https://raw.githubusercontent.com/v4hn/ros-deb-test/jammy-one/ ./
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           SBUILD_CONF: '$verbose = 1;'
-          ROSDEP_SOURCE: rosdep.yaml
-          SQUASH_HISTORY: true
-          CONTINUE_ON_ERROR: false
+          ROSDEP_SOURCE: |
+            rosdep.yaml
+            https://raw.githubusercontent.com/v4hn/ros-deb-test/jammy-one/local.yaml
+          SQUASH_HISTORY: false
+          CONTINUE_ON_ERROR: true
           PUSH_ON_ERROR: true
