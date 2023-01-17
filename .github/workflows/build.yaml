@@ -13,7 +13,7 @@ jobs:
     steps:
       - name: Check out the repo
         uses: actions/checkout@v3
-      - uses: v4hn/ros-deb-builder-action@rosotest-home
+      - uses: v4hn/ros-deb-builder-action@rosotest
         timeout-minutes: 350
         with:
           ROS_DISTRO: ${{ env.ROS_DISTRO }}
