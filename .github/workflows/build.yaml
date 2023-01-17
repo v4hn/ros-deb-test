@@ -1,0 +1,26 @@
+name: build
+
+on:
+  workflow_dispatch:
+  push:
+
+jobs:
+  build:
+    runs-on: ubuntu-22.04
+    env:
+      ROS_DISTRO: one
+      DEB_DISTRO: jammy
+    steps:
+      - name: Check out the repo
+        uses: actions/checkout@v3
+      - uses: v4hn/ros-deb-builder-action@rosotest-home
+        timeout-minutes: 350
+        with:
+          ROS_DISTRO: ${{ env.ROS_DISTRO }}
+          DEB_DISTRO: ${{ env.DEB_DISTRO }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          SBUILD_CONF: '$verbose = 1;'
+          ROSDEP_SOURCE: rosdep.yaml
+          SQUASH_HISTORY: true
+          CONTINUE_ON_ERROR: false
+          PUSH_ON_ERROR: false
