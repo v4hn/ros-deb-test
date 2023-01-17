@@ -23,4 +23,4 @@ jobs:
           ROSDEP_SOURCE: rosdep.yaml
           SQUASH_HISTORY: true
           CONTINUE_ON_ERROR: false
-          PUSH_ON_ERROR: false
+          PUSH_ON_ERROR: true
