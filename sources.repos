@@ -1,0 +1,17 @@
+repositories:
+  executive_smach_visualization:
+    type: git
+    url: https://github.com/ros-visualization/executive_smach_visualization.git
+    version: 2f7a4c874dfb833f4feeab2484a632d0aa6af007
+  jsk_common:
+    type: git
+    url: https://github.com/ros-o/jsk_common.git
+    version: 27411c2915f53fa7aa3f17a74d4b690b5ffb9209
+  ros_environment:
+    type: git
+    url: https://github.com/ros-o/ros_environment
+    version: 2686e94715f726215d674c630ba707a0278628d2
+  setup_files:
+    type: git
+    url: https://github.com/v4hn/setup_files.git
+    version: a3f972aee909a3cffa92cca93f277bc8b368b2ed

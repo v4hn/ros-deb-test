@@ -1,0 +1,155 @@
+Package: ros-one-dynamic-tf-publisher
+Architecture: amd64
+Version: 0-2023.01.19.21.21
+Priority: optional
+Section: misc
+Maintainer: Ryohei Ueda <garaemon@gmail.com>
+Installed-Size: 288
+Depends: libgeometry-msgs-dev, libtf-dev, python3-geometry-msgs, python3-rospy, python3-tf, ros-geometry-msgs, ros-message-runtime, tf-tools
+Filename: ./ros-one-dynamic-tf-publisher_0-2023.01.19.21.21_amd64.deb
+Size: 30658
+MD5sum: af36ca10a11e523a841fdeb75f0b6675
+SHA1: aa66389e6b6ce8b905e4ce4a8d37292aeb76f023
+SHA256: d2c18e985f4d190ea853c061b880a650f9c563fa15eae989773fd06a5aa9a629
+SHA512: eaf702c2554c2c2ea71e3b2841d6f6fe3b52f38590a55a235d5b61025c96bd8f2500eae4ed2479cb2f7ce6308b96d8671e896532da9294e8fa353849e431ce0b
+Homepage: http://ros.org/wiki/dynamic_tf_publisher
+Description: dynamically set the tf trensformation
+
+Package: ros-one-executive-smach-visualization
+Architecture: amd64
+Version: 4.0.1-11-g2f7a4c8-2023.01.19.21.22
+Priority: optional
+Section: misc
+Maintainer: Jonathan Bohren <jbo@jhu.edu>
+Installed-Size: 13
+Depends: ros-one-smach-viewer
+Filename: ./ros-one-executive-smach-visualization_4.0.1-11-g2f7a4c8-2023.01.19.21.22_amd64.deb
+Size: 1790
+MD5sum: 3cfd6ed2c93dbfb9b450ca04e2d84706
+SHA1: 6fc2201320aa69b7e07754c8685e22f1e7686c22
+SHA256: 615ddb30d1f2b9092660ca38c711b916dcb90661ccbd52a2f16122eb8facd180
+SHA512: 3639aad27c5bb213e458191e3b016095cea72dde8bb27c00fd1058346edac9ae59cf132b4d3a0d1a6762b0c627619fa4fd13f79a0e9096fd314b06208295f067
+Homepage: http://ros.org/wiki/smach
+Description: This metapackage depends on the SMACH visualization tools.
+
+Package: ros-one-jsk-common
+Architecture: amd64
+Version: 0-2023.01.19.21.26
+Priority: optional
+Section: misc
+Maintainer: Kei Okada <k-okada@jsk.t.u-tokyo.ac.jp>
+Installed-Size: 15
+Depends: ros-one-audio-video-recorder, ros-one-dynamic-tf-publisher, ros-one-image-view2, ros-one-jsk-network-tools, ros-one-jsk-tilt-laser, ros-one-jsk-tools, ros-one-jsk-topic-tools, ros-one-multi-map-server, ros-one-virtual-force-publisher
+Filename: ./ros-one-jsk-common_0-2023.01.19.21.26_amd64.deb
+Size: 2766
+MD5sum: 546a099c34ebf4dc02054ffa1db3484a
+SHA1: d3b72d9960bd6b6038098d914ab30c3a61161b27
+SHA256: 1380f98fb25de9dbe730c644f15e62283ca6d64481ad794ee78fafc5b5344471
+SHA512: 0259d0bacba865540a8d074b707761aeffe16c8f578c009798d01d46ad3d5a3ad00cf804fd2e0de81539b6e60b50b0a54ab8a31e46f0f7e3c7e14c4fb2c8e21f
+Homepage: http://ros.org/wiki/jsk_common
+Description: Metapackage that contains commonly used toolset for jsk-ros-pkg
+
+Package: ros-one-jsk-network-tools-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 0-2023.01.19.21.27
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-one-jsk-network-tools
+Maintainer: Ryohei Ueda <ueda@jsk.t.u-tokyo.ac.jp>
+Installed-Size: 814
+Depends: ros-one-jsk-network-tools (= 0-2023.01.19.21.27)
+Filename: ./ros-one-jsk-network-tools-dbgsym_0-2023.01.19.21.27_amd64.ddeb
+Size: 724988
+MD5sum: ed56d9c984ae3a09b01ff4cb7b8f3d2c
+SHA1: c7ea7cf0a50b57a0a86f3063c7d040ce946665bf
+SHA256: 5fefe354de19a61dc4a82b9c6ce73814b3c1f324e7d52c0e4f9277f96e8e1e01
+SHA512: 0d1bf8f6caa15305e293cf1d136ef0f87013d512acd0c8f1ba5201d5ab2da949f8ae6cd67622d64a05fc5ba12f548d5e7f37d6bb16b2d6d5369903b674656407
+Description: debug symbols for ros-one-jsk-network-tools
+Build-Ids: 056c834b40048286762682e7b143fb0e13b94ce6
+
+Package: ros-one-jsk-network-tools
+Architecture: amd64
+Version: 0-2023.01.19.21.27
+Priority: optional
+Section: misc
+Maintainer: Ryohei Ueda <ueda@jsk.t.u-tokyo.ac.jp>
+Installed-Size: 854
+Depends: libboost-thread1.74.0 (>= 1.74.0), libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), librosconsole3d (>= 1.14.3), libroscpp-serialization0d (>= 0.7.2), libroscpp4d (>= 1.15.14+ds), librostime1d (>= 0.7.2), libstdc++6 (>= 11), libdiagnostic-msgs-dev, libdiagnostic-updater-dev, libdynamic-reconfigure-config-init-mutex-dev, libroscpp-core-dev, libroscpp-dev, libsensor-msgs-dev, libstd-msgs-dev, python3-diagnostic-msgs, python3-diagnostic-updater, python3-dynamic-reconfigure, python3-rospy, python3-sensor-msgs, python3-std-msgs, ros-diagnostic-msgs, ros-message-runtime, ros-sensor-msgs, ros-std-msgs
+Filename: ./ros-one-jsk-network-tools_0-2023.01.19.21.27_amd64.deb
+Size: 125356
+MD5sum: 5c173f458e5f2089c175d01370ee84c2
+SHA1: db4a1be66ba3c77bfa81ee0b024679f2d609ea00
+SHA256: 5c614f2ce8e3029bf560b9ab7296a60a12601e8d8682d33c7e9c8561253a9d2e
+SHA512: 468f431f3c7fa1260d1f649061be7a96ac44475ef01a09595e3fcec59ed5ef63bb97c043ab4b548be48f751c7ded62bd56855a4594fb967c276d546c2db5c6c1
+Description: jsk_network_tools
+
+Package: ros-one-ros-environment
+Architecture: amd64
+Version: 1.3.2-5-g2686e94-2023.01.19.21.20
+Priority: optional
+Section: misc
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Installed-Size: 43
+Depends: ros-one-setup-files
+Filename: ./ros-one-ros-environment_1.3.2-5-g2686e94-2023.01.19.21.20_amd64.deb
+Size: 5628
+MD5sum: ae6c14e0edf6a4e12e5d8d6a18ff155d
+SHA1: 6afaa764c846a896fd3c3ef6898438d68f55ce10
+SHA256: 35cf270740f26126c061d6a76a0b928338fd6b7b71651bf14b00b71a0e370f44
+SHA512: 1c765ddb3fb19424c63eae5dbef50143f5df1e55118910b9468f9ca9a92ef2661768fccc33e09b7a5bbc70deed2519c0c594adbb95b2bafa4acbc0b296fd6644
+Description: The package provides the environment variables `ROS_VERSION`, `ROS_DISTRO`, `ROS_PACKAGE_PATH`, and `ROS_ETC_DIR`.
+
+Package: ros-one-setup-files
+Architecture: amd64
+Version: 0-2023.01.19.21.19
+Priority: optional
+Section: misc
+Maintainer: Michael Goerner <me@v4hn.de>
+Installed-Size: 66
+Filename: ./ros-one-setup-files_0-2023.01.19.21.19_amd64.deb
+Size: 10572
+MD5sum: 0a29736da8da615ac5ded6579a818ea6
+SHA1: fc6ab483c4f71643bbaf836afdf7ae79b9f65c7d
+SHA256: 738f629aa49380daaf29eaae571aab8cdb7a25a282ac26e7d255c5e12df68945
+SHA512: 3f7ae58e1ce9ea4ef98857acbebc8aab32a7b59d026e5610f5658de2ba01d88994e2313d2f803f1f1e174accbaf227b35c8739c313b30a57053b5d245c9ddad9
+Description: Helper package that should do nothing when built with catkin, but otherwise installs global setup.{sh,zsh,bash,fish} files into the install workspace.
+
+Package: ros-one-virtual-force-publisher-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 0-2023.01.19.21.28
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-one-virtual-force-publisher
+Maintainer: Kei Okada <k-okada@jsk.t.u-tokyo.ac.jp>
+Installed-Size: 2689
+Depends: ros-one-virtual-force-publisher (= 0-2023.01.19.21.28)
+Filename: ./ros-one-virtual-force-publisher-dbgsym_0-2023.01.19.21.28_amd64.ddeb
+Size: 2665678
+MD5sum: 6560f50731cb6f92fbc688659ae89836
+SHA1: fd0818894a6e17035d3c9466f2de07d5eafc97aa
+SHA256: e452b61234a876097a06fd3b3a2344af6d9580d0f3d19931da38c6cd72a7dedf
+SHA512: afcc531bc5a5d253ae62e305da8fab81f451d9c7ef34964636f900b1011632cd1a9c62d2e9871d4490ce24ac49f487d0f3d978f8a65929bff3665bc56f37f653
+Description: debug symbols for ros-one-virtual-force-publisher
+Build-Ids: 62a5756407c0cc5f79b7300acb5e9d720a748ae4
+
+Package: ros-one-virtual-force-publisher
+Architecture: amd64
+Version: 0-2023.01.19.21.28
+Priority: optional
+Section: misc
+Maintainer: Kei Okada <k-okada@jsk.t.u-tokyo.ac.jp>
+Installed-Size: 226
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libkdl-parser1d (>= 1.14.1), liborocos-kdl1.5 (>= 1.5.1), librosconsole3d (>= 1.14.3), libroscpp-serialization0d (>= 0.7.2), libroscpp4d (>= 1.15.14+ds), librostime1d (>= 0.7.2), libstdc++6 (>= 11), libtf-conversions0d (>= 1.13.2), libtf1d (>= 1.13.2), liburdf1d (>= 1.13.2), liburdfdom-world3.0 (>= 3.0.1), libgeometry-msgs-dev, libkdl-parser-dev, libsensor-msgs-dev, libtf-conversions-dev, liburdf-dev, python3-geometry-msgs, python3-sensor-msgs, python3-tf-conversions, ros-geometry-msgs, ros-sensor-msgs
+Filename: ./ros-one-virtual-force-publisher_0-2023.01.19.21.28_amd64.deb
+Size: 75818
+MD5sum: ea6bba31e50b9c1d3ac2b6176c83a161
+SHA1: 6e89ab74d8aec6c1b792a997ffefd763c9a4acb4
+SHA256: 9573a24265b367cc94313f9682a46f7186c0379ab4fba6ed7fe06e9c7297a820
+SHA512: 2d9861ab67f955b9aead10102cc4cd95e59e3a33a1c2351f0883054a4e8b0921110ee81c7e2bd841564d3b29ce3df2a1a800143cebc19c05471d7fd45d1a6ec7
+Homepage: http://ros.org/wiki/virtual_force_publisher
+Description: publish end effector's force, which is estmated from joint torque value
+

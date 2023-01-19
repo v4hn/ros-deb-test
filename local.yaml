@@ -1,0 +1,45 @@
+audio_video_recorder:
+  ubuntu:
+  - ros-one-audio-video-recorder
+dynamic_tf_publisher:
+  ubuntu:
+  - ros-one-dynamic-tf-publisher
+executive_smach_visualization:
+  ubuntu:
+  - ros-one-executive-smach-visualization
+image_view2:
+  ubuntu:
+  - ros-one-image-view2
+jsk_common:
+  ubuntu:
+  - ros-one-jsk-common
+jsk_data:
+  ubuntu:
+  - ros-one-jsk-data
+jsk_network_tools:
+  ubuntu:
+  - ros-one-jsk-network-tools
+jsk_tilt_laser:
+  ubuntu:
+  - ros-one-jsk-tilt-laser
+jsk_tools:
+  ubuntu:
+  - ros-one-jsk-tools
+jsk_topic_tools:
+  ubuntu:
+  - ros-one-jsk-topic-tools
+multi_map_server:
+  ubuntu:
+  - ros-one-multi-map-server
+ros_environment:
+  ubuntu:
+  - ros-one-ros-environment
+setup_files:
+  ubuntu:
+  - ros-one-setup-files
+smach_viewer:
+  ubuntu:
+  - ros-one-smach-viewer
+virtual_force_publisher:
+  ubuntu:
+  - ros-one-virtual-force-publisher
